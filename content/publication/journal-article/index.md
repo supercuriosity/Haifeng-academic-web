@@ -33,7 +33,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://github.com/supercuriosity
+url_pdf: ''
 url_code: 'https://github.com/supercuriosity'
 url_dataset: ''
 url_poster: ''
