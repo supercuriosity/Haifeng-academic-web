@@ -35,11 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        I am a researcher in robotics at Shanghai Jiao Tong University. My work focuses on robot learning and control. I am currently involved in developing a swerve-drive robotic platform, exploring learning-based control strategies for mobile robots, and studying algorithms for real-world robotic applications.
     design:
       columns: '1'
   - block: collection
