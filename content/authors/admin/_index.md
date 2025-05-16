@@ -42,6 +42,8 @@ profiles:
 
 interests:
   - robotics
+  - learning
+  - control
 education:
   - area: PhD Artificial Intelligence
     institution: Stanford University
@@ -103,15 +105,19 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: C++
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Python
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: code-bracket
+      - name: ROS1/2
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: Embedded Development -STM32
         description: ''
         percent: 40
         icon: circle-stack
@@ -119,26 +125,25 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Travel
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Poetry
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: person-simple-walk
+      - name: Table Tennis
         description: ''
         percent: 80
-        icon: camera
+        icon: person-simple-walk
 
 languages:
   - name: English
     percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
