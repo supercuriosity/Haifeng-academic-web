@@ -45,12 +45,12 @@ interests:
   - learning
   - control
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Robotics and Automation
+    institution: Shanghai Jiao Tong University
+    date_start: 2024-09-19
+    date_end: 2028-06-20
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic learning and control.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -109,7 +109,7 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Python
+      - name: Python & PyTorch
         description: ''
         percent: 100
         icon: code-bracket
@@ -179,4 +179,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Haifeng Sun is a researcher in robotics at Shanghai Jiao Tong University. His work focuses on robot learning and control. He is currently involved in developing a swerve-drive robotic platform, exploring strategies for mobile robots, and studying algorithms for real-world robotic applications.
