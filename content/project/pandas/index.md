@@ -1,6 +1,6 @@
 ---
 title: Fines Robot
-date: 2025-7-10
+date: 2025-07-10
 external_link: https://github.com/supercuriosity?tab=repositories
 tags:
   - Hugo
