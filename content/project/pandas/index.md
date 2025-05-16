@@ -1,13 +1,13 @@
 ---
-title: Pandas
-date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+title: Fines Robot
+date: 2025-7-10
+external_link: https://github.com/supercuriosity?tab=repositories
 tags:
   - Hugo
   - Wowchemy
   - Markdown
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Fines is a fully self-developed advanced steerable wheeled mobile robot, equipped with our newly developed embedded framework (system).
 
 <!--more-->

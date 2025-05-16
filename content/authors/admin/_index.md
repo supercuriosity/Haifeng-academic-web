@@ -159,4 +159,4 @@ awards:
 
 ## About Me
 
-Haifeng Sun is a researcher in robotics at Shanghai Jiao Tong University. His work focuses on robot learning and control. He is currently involved in developing a swerve-drive robotic platform, exploring strategies for mobile robots, and studying algorithms for real-world robotic applications.
+I am a researcher in robotics at Shanghai Jiao Tong University. My work focuses on robot learning and control. I am currently involved in developing a swerve-drive robotic platform, exploring strategies for mobile robots, and studying algorithms for real-world robotic applications.
