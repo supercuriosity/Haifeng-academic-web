@@ -52,8 +52,8 @@ education:
     summary: |
       I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic learning and control.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: 'IWIN-FINS'
+      url: 'https://iwin-fins.com/'
   - area: Next1
     institution: University
     date_start: 2028-01-01
