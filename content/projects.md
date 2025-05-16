@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: Making is thinking. In building these robots, I¡¯ve tested ideas, challenged limits, and let my hands do the learning.Here's a glimpse of that journey!
+      text: Mind and hand, thought and tool¡ªthis is where my robots begin£¡
       filters:
         folders:
           - project
