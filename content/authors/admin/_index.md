@@ -134,21 +134,21 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title: Awards
     url: https://github.com/supercuriosity
     date: '2025-01-01'
     awarder: Coursera
     icon: coursera
     summary: |
       next journey
-  - title: Blockchain Fundamentals
+  - title: Honors
     url: https://github.com/supercuriosity
     date: '2025-01-01'
     awarder: edX
     icon: edx
     summary: |
       next journey
-  - title: 'Object-Oriented Programming in R'
+  - title: 'Scholarships'
     url: https://github.com/supercuriosity
     date: '2025-01-01'
     awarder: datacamp

@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: Making is thinking. In building these robots, I¡¯ve tested ideas, challenged limits, and let my hands do the learning.Here's a glimpse of that journey!
       filters:
         folders:
           - project
