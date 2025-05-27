@@ -63,9 +63,10 @@ education:
     summary: |
       As part of the RHOS Group, I have been conducting research in the areas of Embodied AI and robot learning, under the mentorship of Prof. Yong-Lu Li and the guidance of Prof. Cewu Lu.
       
-      button:
+    button:
       text: 'MVIG-RHOS'
       url: 'https://mvig-rhos.com/'
+
 work:
   - position: Next1
     company_name: X
@@ -74,14 +75,6 @@ work:
     date_start: 2028-01-01
     date_end: ''
     summary: |2-
-      next journey
-  - position: Next2
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2028-01-01
-    date_end: ''
-    summary: |
       next journey
 
 # Skills
