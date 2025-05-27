@@ -43,29 +43,29 @@ profiles:
 interests:
   - robotics
   - learning
+  - AI
   - control
+
 education:
   - area: Robotics and Automation
     institution: Shanghai Jiao Tong University
     date_start: 2024-09-19
     date_end: ''
     summary: |
-      I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic learning and control.
+      I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic  control.
     button:
       text: 'IWIN-FINS'
       url: 'https://iwin-fins.com/'
-  - area: Next1
-    institution: University
-    date_start: 2028-01-01
+  - area: Artificial Intelligence Institute
+    institution: Shanghai Jiao Tong University
+    date_start: 2025-05-27
     date_end: ''
     summary: |
-      next journey
-  - area: Next2
-    institution: University
-    date_start: 2028-01-01
-    date_end: ''
-    summary: |
-      next journey
+      As part of the RHOS Group, I have been conducting research in the areas of Embodied AI and robot learning, under the mentorship of Prof. Yong-Lu Li and the guidance of Prof. Cewu Lu.
+      
+      button:
+      text: 'MVIG-RHOS'
+      url: 'https://mvig-rhos.com/'
 work:
   - position: Next1
     company_name: X
@@ -159,4 +159,4 @@ awards:
 
 ## About Me
 
-I am a researcher in robotics at Shanghai Jiao Tong University. My work focuses on robot learning and control. I am currently involved in developing a swerve-drive robotic platform, exploring strategies for mobile robots, and studying algorithms for real-world robotic applications.
+Hi! I am an undergraduate researcher at Shanghai Jiao Tong University, working with Prof. Yonglu Li and supervised by Prof. Cewu Lu. I am also guided by Prof. Jianping He, Prof. Hong Li, and Dr. Junyi Zhang. My research interests lie in Embodied AI, robot learning, and Human-Robot Interaction. I am particularly interested in building intelligent systems that understand human behavior, learn from demonstrations, and collaborate adaptively in complex environments.

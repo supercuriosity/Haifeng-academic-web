@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a researcher in robotics at Shanghai Jiao Tong University. My work focuses on robot learning and control. I am currently involved in developing a swerve-drive robotic platform, exploring learning-based control strategies for mobile robots, and studying algorithms for real-world robotic applications.
+        I am a researcher in robotics at Shanghai Jiao Tong University, focusing on Embodied AI, robot learning, and Human-Robot Interaction. We are building knowledge- and reasoning-driven systems that enable intelligent agents to perceive human activities, understand behavioral logic, learn from demonstrations, and interact adaptively with complex environments. My goal is to develop robots that generalize across tasks, infer human intentions, and collaborate safely and intelligently in the real world.
     design:
       columns: '1'
   - block: collection
