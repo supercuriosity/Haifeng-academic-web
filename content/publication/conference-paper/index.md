@@ -1,19 +1,18 @@
 ---
-title: 'Example Two'
+title: 'Example'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
-
+  - example
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-11-06T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -31,7 +30,7 @@ publication_short: In *ICW*
 abstract: We don't read and write poetry because it's cute.We read and write poetry because we are members of the human race.And the human race is filled with passion.And medicine,law,business,engineering,these are noble pursuits and necessary to sustain life.But poetry,beauty,romance,love,these are what we stay alive for.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: The journey of a thousand miles begins with one step.
 
 tags:
   - Large Language Models

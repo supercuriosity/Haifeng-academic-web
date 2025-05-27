@@ -61,8 +61,7 @@ education:
     date_start: 2025-05-27
     date_end: ''
     summary: |
-      As part of the RHOS Group, I have been conducting research in the areas of Embodied AI and robot learning, under the mentorship of Prof. Yong-Lu Li and the guidance of Prof. Cewu Lu.
-      
+      As part of the RHOS Group, I have been conducting research in the areas of Embodied AI and robot learning, under the mentorship of Prof. Yong-Lu Li and the guidance of Prof. Cewu Lu.   
     button:
       text: 'MVIG-RHOS'
       url: 'https://mvig-rhos.com/'
