@@ -1,6 +1,6 @@
 ---
 title: Fines Robot
-date: 2025-07-10
+date: 2025-05-21
 external_link: https://github.com/supercuriosity?tab=repositories
 tags:
   - Markdown
