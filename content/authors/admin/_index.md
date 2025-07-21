@@ -42,9 +42,9 @@ profiles:
 
 interests:
   - robotics
-  - learning
-  - AI
+  - embodied AI
   - control
+  - machine learning
 
 education:
   - area: Robotics and Automation
@@ -151,4 +151,4 @@ awards:
 
 ## About Me
 
-Hi! I am an undergraduate researcher at Shanghai Jiao Tong University, working with Prof. Yonglu Li and supervised by Prof. Cewu Lu. I am also guided by Prof. Jianping He, Prof. Hong Li, and Dr. Junyi Zhang. My research interests lie in Embodied AI, robot learning, and Human-Robot Interaction. I am particularly interested in building intelligent systems that understand human behavior, learn from demonstrations, and collaborate adaptively in complex environments.
+Hi! I am an undergraduate researcher at Shanghai Jiao Tong University, working with Prof. Yonglu Li and supervised by Prof. Cewu Lu. I am also guided by Prof. Jianping He. My research interests lie in Embodied AI, robot learning, and Human-Robot Interaction. I am particularly interested in building intelligent systems that understand human behavior, learn from demonstrations, and collaborate adaptively in complex environments.
