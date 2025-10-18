@@ -42,6 +42,7 @@ profiles:
 
 interests:
   - robotics
+  - computer vision
   - embodied AI
   - control
   - machine learning
@@ -50,7 +51,7 @@ education:
   - area: Robotics and Automation
     institution: Shanghai Jiao Tong University
     date_start: 2024-09-19
-    date_end: ''
+    date_end: 2025-09-30
     summary: |
       I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic  control.
     button:
@@ -67,14 +68,14 @@ education:
       url: 'https://mvig-rhos.com/'
 
 work:
-  - position: Next1
-    company_name: X
-    company_url: ''
+  - position: Research Intern
+    company_name: Cambridge University
+    company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
     company_logo: ''
-    date_start: 2028-01-01
+    date_start: 2025-10-01
     date_end: ''
     summary: |2-
-      next journey
+      I am collaborating with [**Jiuming Liu**](https://liujiuming123.github.io/) from Cambridge University on research related to Computer Vision and Machine Learning.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -93,7 +94,7 @@ skills:
         description: ''
         percent: 90
         icon: code-bracket
-      - name: Embedded Development -STM32
+      - name: STM32
         description: ''
         percent: 40
         icon: circle-stack
@@ -151,4 +152,6 @@ awards:
 
 ## About Me
 
-Hi! I am an undergraduate researcher at Shanghai Jiao Tong University, working with Prof. Yonglu Li and supervised by Prof. Cewu Lu. I am also guided by Prof. Jianping He. My research interests lie in Embodied AI, robot learning, and Human-Robot Interaction. I am particularly interested in building intelligent systems that understand human behavior, learn from demonstrations, and collaborate adaptively in complex environments.
+Hi! I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), working with [**Prof. Yonglu Li**](https://dirtyharrylyl.github.io/) and supervised by [**Prof. Cewu Lu**](https://www.mvig.org/index.html). I am also guided by [**Prof. Jianping He**](https://iwin-fins.com/) and closely collaborating with [**Jiuming Liu**](https://liujiuming123.github.io/) from **Cambridge University**.
+
+My research interests lie in Embodied AI, robot learning, and Human-Robot Interaction. I am particularly interested in building intelligent systems that understand human behavior, learn from demonstrations, and collaborate adaptively in complex environments.
