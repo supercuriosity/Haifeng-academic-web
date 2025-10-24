@@ -75,7 +75,15 @@ work:
     date_start: 2025-10-01
     date_end: ''
     summary: |2-
-      I am collaborating with [**Jiuming Liu**](https://liujiuming123.github.io/) from Cambridge University on research related to Computer Vision and Machine Learning.
+      I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) from Cambridge University on research related to Computer Vision and Machine Learning.
+  - position: Research Intern
+    company_name: UNC Chapel Hill
+    company_url: 'https://www.huaxiuyao.io/'
+    company_logo: ''
+    date_start: 2026-01-01
+    date_end: ''
+    summary: |2-
+      I am conducting research under the supervision of [**Prof. Huaxiu Yao**](https://www.huaxiuyao.io/) at UNC Chapel Hill and collaborating with [**Dr. Jiaqi Liu**](https://jiaaqiliu.github.io/), focusing on Embodied Agents.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -127,13 +135,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Awards
-    url: https://github.com/supercuriosity
-    date: '2025-01-01'
-    awarder: Coursera
-    icon: coursera
+  - title: Travel
+    url: https://github.com/supercuriosity/Travel
+    date: '2006-06-11'
+    awarder: Haifeng Sun
+    icon: person-simple-walk
     summary: |
-      next journey
+      Travel Photos
   - title: Honors
     url: https://github.com/supercuriosity
     date: '2025-01-01'
@@ -141,17 +149,8 @@ awards:
     icon: edx
     summary: |
       next journey
-  - title: 'Scholarships'
-    url: https://github.com/supercuriosity
-    date: '2025-01-01'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      next journey
 ---
 
 ## About Me
 
-Hi! I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), working with [**Prof. Yonglu Li**](https://dirtyharrylyl.github.io/) and supervised by [**Prof. Cewu Lu**](https://www.mvig.org/index.html). I am also guided by [**Prof. Jianping He**](https://iwin-fins.com/) and closely collaborating with [**Jiuming Liu**](https://liujiuming123.github.io/) from **Cambridge University**.
-
-My research interests lie in Embodied AI, robot learning, and Human-Robot Interaction. I am particularly interested in building intelligent systems that understand human behavior, learn from demonstrations, and collaborate adaptively in complex environments.
+I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), [Prof. Cewu Lu](https://www.mvig.org/index.html), and [Prof. Jianping He](https://iwin-fins.com/). I am also jointly supervised by [Prof. Huaxiu Yao](https://www.huaxiuyao.io/) at UNC Chapel Hill and collaborating with [Dr. Jiaqi Liu](https://jiaaqiliu.github.io/) and [Dr. Jiuming Liu](https://liujiuming123.github.io/) from Cambridge.

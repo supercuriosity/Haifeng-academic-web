@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a researcher in robotics at Shanghai Jiao Tong University, focusing on Embodied AI, robot learning, and Human-Robot Interaction. We are building knowledge- and reasoning-driven systems that enable intelligent agents to perceive human activities, understand behavioral logic, learn from demonstrations, and interact adaptively with complex environments. My goal is to develop robots that generalize across tasks, infer human intentions, and collaborate safely and intelligently in the real world.
+        My research focuses on Embodied AI, Robotics, and Computer Vision. I develop knowledge- and reasoning-driven frameworks that enable intelligent agents to perceive human activities, understand behavioral logic, learn from demonstrations, and adaptively interact with complex environments. My goal is to create embodied robots that can generalize across tasks, infer human intentions, and collaborate safely and intelligently in the real world.
     design:
       columns: '1'
   - block: collection
