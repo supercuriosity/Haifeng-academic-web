@@ -122,6 +122,10 @@ skills:
         description: ''
         percent: 80
         icon: person-simple-walk
+      - name: Investment
+        description: ''
+        percent: 70
+        icon: circle-stack
 
 languages:
   - name: English
