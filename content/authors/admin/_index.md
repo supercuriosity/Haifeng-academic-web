@@ -72,7 +72,7 @@ work:
     company_name: Cambridge University
     company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
     company_logo: ''
-    date_start: 2025-10-01
+    date_start: 2025-08-01
     date_end: ''
     summary: |2-
       I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) from Cambridge University on research related to Computer Vision and Machine Learning.
@@ -80,7 +80,7 @@ work:
     company_name: UNC Chapel Hill
     company_url: 'https://www.huaxiuyao.io/'
     company_logo: ''
-    date_start: 2026-01-01
+    date_start: 2025-11-01
     date_end: ''
     summary: |2-
       I am conducting research under the supervision of [**Prof. Huaxiu Yao**](https://www.huaxiuyao.io/) at UNC Chapel Hill and collaborating with [**Dr. Jiaqi Liu**](https://jiaaqiliu.github.io/), focusing on Embodied Agents.
