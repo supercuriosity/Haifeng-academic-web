@@ -146,6 +146,13 @@ awards:
     icon: person-simple-walk
     summary: |
       Travel Photos
+  - title: Poetry
+    url: https://github.com/supercuriosity/portfolio
+    date: '2006-06-11'
+    awarder: Haifeng Sun
+    icon: brands/github
+    summary: |
+      My Portfolio
   - title: Honors
     url: https://github.com/supercuriosity
     date: '2025-01-01'
