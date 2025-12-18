@@ -73,7 +73,7 @@ work:
     company_name: University of Maryland, College Park
     company_url: 'https://fang-haoshu.github.io/'
     company_logo: ''
-    date_start: 2026-6-30
+    date_start: 2026-06-30
     date_end: ''
     summary: |2-
       I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park,focusing on Robotics.
@@ -81,8 +81,8 @@ work:
     company_name: Cambridge University
     company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
     company_logo: ''
-    date_start: 2026-02-20
-    date_end: 
+    date_start: 2025-10-01
+    date_end: 2026-02-01
     summary: |2-
       I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) from Cambridge University on research related to Computer Vision and Machine Learning.
 
