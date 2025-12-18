@@ -1,11 +1,11 @@
 ---
-title: Regressive-PointCloud
-date: 2025-10-06
-external_link: https://github.com/supercuriosity/Regressive-PointCloud
+title: PointAR
+date: 2025-12-12
+external_link: https://github.com/supercuriosity?tab=repositories
 tags:
   - Markdown
 ---
 
-Leverages a regressive model for 4D point cloud understanding and generation.
+Progressive Multi-Granularity Autoregressive Pre-training for 4D Point Cloud Understanding
 
 <!--more-->

@@ -48,15 +48,6 @@ interests:
   - machine learning
 
 education:
-  - area: Robotics and Automation
-    institution: Shanghai Jiao Tong University
-    date_start: 2024-09-19
-    date_end: 2025-09-30
-    summary: |
-      I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic  control.
-    button:
-      text: 'IWIN-FINS'
-      url: 'https://iwin-fins.com/'
   - area: Artificial Intelligence Institute
     institution: Shanghai Jiao Tong University
     date_start: 2025-05-27
@@ -66,24 +57,35 @@ education:
     button:
       text: 'MVIG-RHOS'
       url: 'https://mvig-rhos.com/'
+  - area: Robotics and Automation
+    institution: Shanghai Jiao Tong University
+    date_start: 2024-09-19
+    date_end: 2025-09-30
+    summary: |
+      I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic  control.
+    button:
+      text: 'IWIN-FINS'
+      url: 'https://iwin-fins.com/'
+
 
 work:
+  - position: Research Intern
+    company_name: University of Maryland, College Park
+    company_url: 'https://fang-haoshu.github.io/'
+    company_logo: ''
+    date_start: 2026-6-30
+    date_end: ''
+    summary: |2-
+      I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park,focusing on Robotics.
   - position: Research Intern
     company_name: Cambridge University
     company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
     company_logo: ''
-    date_start: 2025-08-01
-    date_end: ''
+    date_start: 2026-02-20
+    date_end: 
     summary: |2-
       I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) from Cambridge University on research related to Computer Vision and Machine Learning.
-  - position: Research Intern
-    company_name: UNC Chapel Hill
-    company_url: 'https://www.huaxiuyao.io/'
-    company_logo: ''
-    date_start: 2025-11-01
-    date_end: ''
-    summary: |2-
-      I am conducting research under the supervision of [**Prof. Huaxiu Yao**](https://www.huaxiuyao.io/) at UNC Chapel Hill and collaborating with [**Dr. Jiaqi Liu**](https://jiaaqiliu.github.io/), focusing on Embodied Agents.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -164,4 +166,4 @@ awards:
 
 ## About Me
 
-I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), [Prof. Cewu Lu](https://www.mvig.org/index.html), and [Prof. Jianping He](https://iwin-fins.com/). I am also jointly supervised by [Prof. Huaxiu Yao](https://www.huaxiuyao.io/) at UNC Chapel Hill and collaborating with [Dr. Jiaqi Liu](https://jiaaqiliu.github.io/) and [Dr. Jiuming Liu](https://liujiuming123.github.io/) from Cambridge.
+I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [Prof. Haoshu Fang](https://fang-haoshu.github.io/) (University of Maryland, College Park), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), [Prof. Cewu Lu](https://www.mvig.org/index.html), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) from the University of Cambridge.
