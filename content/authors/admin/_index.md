@@ -73,8 +73,6 @@ work:
     company_name: University of Maryland, College Park
     company_url: 'https://fang-haoshu.github.io/'
     company_logo: ''
-    date_start: 2026-06-30
-    date_end: ''
     summary: |2-
       I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park,focusing on Robotics.
   - position: Research Intern
@@ -166,4 +164,4 @@ awards:
 
 ## About Me
 
-I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [Prof. Haoshu Fang](https://fang-haoshu.github.io/) (University of Maryland, College Park), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), [Prof. Cewu Lu](https://www.mvig.org/index.html), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) from the University of Cambridge.
+I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [Prof. Haoshu Fang](https://fang-haoshu.github.io/), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), [Prof. Cewu Lu](https://www.mvig.org/index.html), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) from the University of Cambridge.

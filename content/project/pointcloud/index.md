@@ -1,5 +1,5 @@
 ---
-title: PointAR
+title: GPT4D
 date: 2025-12-12
 external_link: https://github.com/supercuriosity?tab=repositories
 tags:
