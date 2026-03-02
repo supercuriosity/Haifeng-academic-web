@@ -1,22 +1,27 @@
 ---
-title: 'Example'
+title: 'GPT4D: Generative Pre-training Transformer with Next-Scale Spatio-temporal Token Prediction for 4D Human Action Recognition'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Jiuming Liu
   - admin
-  - example
+  - Wentao Le
+  - Mengmeng Liu
+  - Xuyi Hu
+  - Per Ola Kristensson
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
+  - 'Equal contribution'
 
-date: '2024-11-06T00:00:00Z'
+date: '2026-03-05T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2026-03-05T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,16 +29,21 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In submission to *ECCV 2026*
+publication_short: In submission to *ECCV 2026*
 
-abstract: We don't read and write poetry because it's cute.We read and write poetry because we are members of the human race.And the human race is filled with passion.And medicine,law,business,engineering,these are noble pursuits and necessary to sustain life.But poetry,beauty,romance,love,these are what we stay alive for.
+abstract: 4D human point cloud videos provide a rich representation of human activities by capturing both spatial geometry and temporal dynamics, revealing how people understand and interact with the evolving physical world. However, the inherent irregularity and sparsity of point clouds pose significant challenges in proposing effective 4D backbones. Furthermore, existing supervised methods commonly suffer from labor-intensive 4D annotation costs. To address these challenges, we develop **GPT4D**, an autoregressive framework that leverages generative pre-training transformers (GPT) to extract 4D spatio-temporal features for human action recognition. Compared to previous self-supervised approaches that resort to complicated contrastive learning or knowledge distillation designs, our method revisits GPT-style pre-training by simply serializing 4D tokens and then reconstructing original sequences through a generative extractor-generator pipeline. To capture multi-granularity dynamics, we also design a Next-Scale Motion Token Prediction strategy that progressively generates more fine-grained spatio-temporal structures from coarser ones. Extensive experiments on 4D human action or gesture recognition datasets, such as MSR-Action3D, SHREC'17, and NvGesture, demonstrate that GPT4D achieves state-of-the-art performance. Code will be released upon publication.
 
 # Summary. An optional shortened abstract.
-summary: The journey of a thousand miles begins with one step.
+summary: GPT4D is an autoregressive generative framework that reformulates 4D point cloud video understanding as next-token prediction, integrating long-range motion priors with local geometric details to achieve state-of-the-art performance on human action recognition benchmarks.
 
 tags:
-  - Large Language Models
+  - 4D point cloud understanding
+  - human action recognition
+  - Generative Pre-training Transformer
+  - Next-Scale Motion Token Prediction
+  - Spatial-Temporal Modeling
+
 
 # Display this page in the Featured widget?
 featured: true
@@ -45,12 +55,12 @@ featured: true
 
 url_pdf: ''
 url_code: 'https://github.com/supercuriosity'
-url_dataset: 'https://github.com/supercuriosity'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/supercuriosity'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
