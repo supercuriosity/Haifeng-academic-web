@@ -73,8 +73,20 @@ work:
     company_name: University of Maryland, College Park
     company_url: 'https://fang-haoshu.github.io/'
     company_logo: ''
+    date_start: 2026-02-01
+    date_end: ''
     summary: |2-
       I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park,focusing on Robotics.
+
+  - position: Summer intern
+    company_name: WorldEngine AI
+    company_url: 'https://worldengine.ai/'
+    company_logo: ''
+    date_start: 2025-07-01
+    date_end: 2026-10-01
+    summary: |2-
+      I am working as a summer intern at WorldEngine AI under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Yue Wang**](https://yuewang.xyz/), focusing on robot manipulation.
+
   - position: Research Intern
     company_name: Cambridge University
     company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
