@@ -82,10 +82,10 @@ work:
     company_name: WorldEngine AI
     company_url: 'https://worldengine.ai/'
     company_logo: ''
-    date_start: 2025-07-01
+    date_start: 2026-07-01
     date_end: 2026-10-01
     summary: |2-
-      I am working as a summer intern at WorldEngine AI under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Yue Wang**](https://yuewang.xyz/), focusing on robot manipulation.
+      I am working as a summer intern at [**WorldEngine AI**](https://worldengine.ai/)  under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Yue Wang**](https://yuewang.xyz/), focusing on robot manipulation.
 
   - position: Research Intern
     company_name: Cambridge University
