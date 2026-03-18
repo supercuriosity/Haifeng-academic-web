@@ -1,5 +1,6 @@
-https://haifengsun.netlify.app/
+# Haifeng Sun Academic Website
 
+[Website](https://haifengsun.netlify.app/)
 
 Do not go gentle into that good night,
 Old age should burn and rave at close of day;

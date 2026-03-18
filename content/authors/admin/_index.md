@@ -62,7 +62,7 @@ education:
     date_start: 2024-09-19
     date_end: 2025-09-30
     summary: |
-      I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic  control.
+      I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic control.
     button:
       text: 'IWIN-FINS'
       url: 'https://iwin-fins.com/'
@@ -76,7 +76,7 @@ work:
     date_start: 2026-02-01
     date_end: ''
     summary: |2-
-      I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park,focusing on Robotics.
+      I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park, focusing on robotics.
 
   - position: Summer intern
     company_name: WorldEngine AI
@@ -85,7 +85,7 @@ work:
     date_start: 2026-07-01
     date_end: 2026-10-01
     summary: |2-
-      I am working as a summer intern at [**WorldEngine AI**](https://worldengine.ai/)  under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Yue Wang**](https://yuewang.xyz/), focusing on robot manipulation.
+      I am working as a summer intern at [**WorldEngine AI**](https://worldengine.ai/) under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Yue Wang**](https://yuewang.xyz/), focusing on robot manipulation.
 
   - position: Research Intern
     company_name: Cambridge University
