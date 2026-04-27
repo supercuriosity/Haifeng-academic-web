@@ -78,15 +78,6 @@ work:
     summary: |2-
       I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park, focusing on robotics.
 
-  - position: Summer intern
-    company_name: WorldEngine AI
-    company_url: 'https://worldengine.ai/'
-    company_logo: ''
-    date_start: 2026-07-01
-    date_end: 2026-10-01
-    summary: |2-
-      I am working as a summer intern at [**WorldEngine AI**](https://worldengine.ai/) under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Yue Wang**](https://yuewang.xyz/), focusing on robot manipulation.
-
   - position: Research Intern
     company_name: Cambridge University
     company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
@@ -176,4 +167,4 @@ awards:
 
 ## About Me
 
-I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [Prof. Haoshu Fang](https://fang-haoshu.github.io/), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), [Prof. Cewu Lu](https://www.mvig.org/index.html), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) from the University of Cambridge.
+I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [Prof. Haoshu Fang](https://fang-haoshu.github.io/), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) from the University of Cambridge.
