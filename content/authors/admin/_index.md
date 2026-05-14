@@ -169,4 +169,4 @@ awards:
 
 I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [**Prof. Haoshu Fang**](https://fang-haoshu.github.io/), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) and [Prof.Per Ola Kristensson](https://pokristensson.com/) from the University of Cambridge.
 
-My goal is to become a full-stack robotics researcher.
+My goal is to become a **full-stack** robotics researcher.
