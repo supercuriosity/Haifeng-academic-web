@@ -6,7 +6,7 @@ title: 'GPT4D: Generative Pre-training Transformer with Next-Scale Spatio-tempor
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Jiuming Liu†
-  - '**Haifeng Sun†**'
+  - **Haifeng Sun**†
   - Wentao Le†
   - Mengmeng Liu
   - Xuyi Hu
