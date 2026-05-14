@@ -28,14 +28,13 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        My research focuses on Embodied AI, Robotics, and Computer Vision. I develop knowledge- and reasoning-driven frameworks that enable intelligent agents to perceive human activities, understand behavioral logic, learn from demonstrations, and adaptively interact with complex environments. My goal is to create embodied robots that can generalize across tasks, infer human intentions, and collaborate safely and intelligently in the real world.
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: 'Updates'
+  #     subtitle: ''
+  #     text: |- 
+  #   design:
+  #     columns: '1'
   - block: collection
     id: papers
     content:
@@ -46,7 +45,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 1
   - block: collection
     content:
       title: Recent Publications

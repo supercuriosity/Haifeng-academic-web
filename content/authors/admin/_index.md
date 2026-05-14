@@ -1,4 +1,4 @@
----
+﻿---
 # Display name
 title: Haifeng Sun
 
@@ -72,7 +72,7 @@ work:
   - position: Research Intern
     company_name: University of Maryland, College Park
     company_url: 'https://fang-haoshu.github.io/'
-    company_logo: ''
+    company_logo: Maryland
     date_start: 2026-02-01
     date_end: ''
     summary: |2-
@@ -81,11 +81,11 @@ work:
   - position: Research Intern
     company_name: Cambridge University
     company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
-    company_logo: ''
+    company_logo: cambridge
     date_start: 2025-10-01
     date_end: 2026-02-01
     summary: |2-
-      I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) from Cambridge University on research related to Computer Vision and Machine Learning.
+      I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) and [**Prof.Per Ola Kristensson**](https://pokristensson.com/) from the University of Cambridge on research related to Computer Vision and Machine Learning.
 
 
 # Skills
@@ -167,4 +167,6 @@ awards:
 
 ## About Me
 
-I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [Prof. Haoshu Fang](https://fang-haoshu.github.io/), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) from the University of Cambridge.
+I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [**Prof. Haoshu Fang**](https://fang-haoshu.github.io/), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) and [Prof.Per Ola Kristensson](https://pokristensson.com/) from the University of Cambridge.
+
+My goal is to become a full-stack robotics researcher.
