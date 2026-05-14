@@ -17,9 +17,9 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       # button removed to avoid publishing CV
     design:
-      css_class: dark
+      css_class: light
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `assets/media/`.
           filename: ''
