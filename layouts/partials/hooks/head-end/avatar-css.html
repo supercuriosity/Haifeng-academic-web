@@ -1,0 +1,12 @@
+<style>
+/* 强制将常见的圆形头像样式改为方形（覆盖 Tailwind 的 rounded-full） */
+img.rounded-full,
+.rounded-full img,
+img[class*="avatar"],
+[class*="avatar"] img,
+img[class*="profile"],
+[class*="profile"] img {
+  border-radius: 0 !important;
+  overflow: visible;
+}
+</style>
