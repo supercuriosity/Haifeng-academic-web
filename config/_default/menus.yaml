@@ -17,5 +17,7 @@ main:
   - name: Experience
     url: experience/
     weight: 30
-
+  - name: Podcast
+    url: podcast/
+    weight: 40
 
