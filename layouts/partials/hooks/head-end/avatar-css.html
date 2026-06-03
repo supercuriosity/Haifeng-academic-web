@@ -1,5 +1,5 @@
 <style>
-/* 强制将常见的圆形头像样式改为方形（覆盖 Tailwind 的 rounded-full） */
+/* Keep the profile portrait square while preserving browser-native smoothing. */
 img.rounded-full,
 .rounded-full img,
 img[class*="avatar"],
@@ -8,5 +8,6 @@ img[class*="profile"],
 [class*="profile"] img {
   border-radius: 0 !important;
   overflow: visible;
+  image-rendering: auto;
 }
 </style>

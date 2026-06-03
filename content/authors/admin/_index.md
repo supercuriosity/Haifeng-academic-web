@@ -35,6 +35,12 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/supercuriosity
+  - icon: brands/instagram
+    url: https://www.instagram.com/curiosity123hf
+    label: Instagram
+  - icon: brands/x
+    url: https://x.com/curiosityhf
+    label: X
   - icon: brands/linkedin
     url: https://www.linkedin.com/
   - icon: academicons/google-scholar
