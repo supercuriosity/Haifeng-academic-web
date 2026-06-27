@@ -143,32 +143,31 @@ languages:
     percent: 100
 
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
+# Life.
+#   Add/remove as many life links below as you like.
+#   Only `title`, `awarder`, and `date` are required by this HugoBlox block.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Travel
-    url: https://github.com/supercuriosity/Travel
-    date: '2006-06-11'
-    awarder: Haifeng Sun
-    icon: person-simple-walk
-    summary: |
-      Travel Photos
   - title: Poetry
     url: https://github.com/supercuriosity/portfolio
     date: '2006-06-11'
-    awarder: Haifeng Sun
-    icon: brands/github
+    awarder: Life
+    icon: book-open
     summary: |
-      My Portfolio
-  - title: Honors
-    url: https://github.com/supercuriosity
-    date: '2025-01-01'
-    awarder: edX
-    icon: edx
+      Selected poems and writing
+  - title: WeChat
+    date: '2006-06-11'
+    awarder: Contact
+    icon: chat-bubble-left-right
     summary: |
-      next journey
+      Haifeng-curiosity
+  - title: Xiaohongshu
+    url: https://www.xiaohongshu.com/user/profile/666835f6000000000303237f?m_source=pwa
+    date: '2006-06-11'
+    awarder: Social
+    icon: link
+    summary: |
+      Notes and life updates
 ---
 
 ## About Me
