@@ -39,10 +39,6 @@
     {{ end }}
   </div>
 
-  {{ if gt (len $images) 0 }}
-    <div class="photo-count photo-count-footer">{{ len $images }} photographs</div>
-  {{ end }}
-
   <div class="photo-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
     <button class="photo-lightbox-close" type="button" aria-label="Close photo viewer">&times;</button>
     <button class="photo-lightbox-nav photo-lightbox-prev" type="button" aria-label="Previous photo">&lsaquo;</button>
@@ -90,14 +86,6 @@
   .photography-section .photo-grid-item:focus-visible {
     outline: 2px solid currentColor;
     outline-offset: 3px;
-  }
-
-  .photography-section .photo-count-footer {
-    color: rgb(107 114 128);
-    font-size: 0.78rem;
-    letter-spacing: 0;
-    margin-top: 1.5rem;
-    text-align: center;
   }
 
   .photography-section .photo-lightbox {
