@@ -12,7 +12,5 @@ sections:
     content:
       title: Photography
       text: |-
-        I keep photographs as another kind of field note: travel, streets, campus light, mountains, rivers, coastlines, and the ordinary days that deserve a second look.
-
-        This page is the public index for those visual notes, organized by place, season, or camera roll.
+        The wind of freedom blows
 ---
