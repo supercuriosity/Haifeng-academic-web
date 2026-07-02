@@ -1,8 +1,8 @@
 ---
-title: Photography
+title: Photos
 date: 2026-07-02
 type: landing
-summary: A visual notebook for travel, streets, campus light, and ordinary days.
+summary: The wind of freedom blows.
 
 design:
   spacing: '5rem'
@@ -10,7 +10,7 @@ design:
 sections:
   - block: photo-grid
     content:
-      title: Photography
+      title: Photos
       text: |-
         The wind of freedom blows
 ---
