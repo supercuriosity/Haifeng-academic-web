@@ -18,6 +18,21 @@
   {{ end }}
 {{ end }}
 
+{{ $pinned_images := slice "Me.jpg" "Mt.Lu_night.jpg" }}
+{{ $ordered_images := slice }}
+{{ range $pinned_name := $pinned_images }}
+  {{ range sort $images "Name" "asc" }}
+    {{ if eq (path.Base .Name) $pinned_name }}
+      {{ $ordered_images = $ordered_images | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ range sort $images "Name" "asc" }}
+  {{ if not (in $pinned_images (path.Base .Name)) }}
+    {{ $ordered_images = $ordered_images | append . }}
+  {{ end }}
+{{ end }}
+
 <section class="photography-section mx-auto w-full max-w-7xl px-6" data-photo-lightbox>
   <div class="mx-auto mb-8 max-w-3xl text-center">
     {{ with $title }}
@@ -29,12 +44,20 @@
   </div>
 
   <div class="photo-grid" aria-label="Photographs">
-    {{ range sort $images "Name" "asc" }}
+    {{ range $ordered_images }}
       {{ $filename := path.Base .Name }}
       {{ $base := replaceRE "\\.[^.]+$" "" $filename }}
       {{ $caption := $base | replace "_" " " | replace "-" " " | replace "." " " | title }}
+      {{ $thumb := .Fit "1200x1600 q90" }}
+      {{ $thumbSmall := .Fit "720x960 q86" }}
       <button class="photo-grid-item" type="button" data-full-src="{{ .RelPermalink }}" data-caption="{{ $caption }}" aria-label="Open {{ $caption }}">
-        <img src="{{ .RelPermalink }}" alt="{{ $caption }}" loading="lazy" decoding="async">
+        <img
+          src="{{ $thumb.RelPermalink }}"
+          srcset="{{ $thumbSmall.RelPermalink }} {{ $thumbSmall.Width }}w, {{ $thumb.RelPermalink }} {{ $thumb.Width }}w"
+          sizes="(min-width: 1180px) 25vw, (min-width: 761px) 33vw, 50vw"
+          alt="{{ $caption }}"
+          loading="lazy"
+          decoding="async">
       </button>
     {{ end }}
   </div>
@@ -227,6 +250,18 @@
     .photography-section .photo-lightbox-next {
       right: 0.75rem;
     }
+
+    .photography-section .photo-lightbox-nav {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(255, 255, 255, 0.14);
+      height: 2.35rem;
+      opacity: 0.36;
+      width: 2.35rem;
+    }
+
+    .photography-section .photo-lightbox-nav:hover {
+      opacity: 0.72;
+    }
   }
 </style>
 
@@ -251,6 +286,7 @@
       var touchStartX = 0;
       var touchStartY = 0;
       var touchStartTime = 0;
+      var preloaded = {};
 
       if (!items.length || !lightbox || !image) {
         return;
@@ -265,6 +301,27 @@
 
         image.setAttribute("src", src);
         image.setAttribute("alt", label);
+        preloadNeighbors();
+      }
+
+      function preloadPhoto(index) {
+        var item = items[(index + items.length) % items.length];
+        var src = item && item.getAttribute("data-full-src");
+
+        if (!src || preloaded[src]) {
+          return;
+        }
+
+        var preloadImage = new Image();
+        preloadImage.src = src;
+        preloaded[src] = preloadImage;
+      }
+
+      function preloadNeighbors() {
+        window.setTimeout(function () {
+          preloadPhoto(activeIndex - 1);
+          preloadPhoto(activeIndex + 1);
+        }, 0);
       }
 
       function openLightbox(index) {
