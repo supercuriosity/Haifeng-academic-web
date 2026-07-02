@@ -1,0 +1,78 @@
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+
+{{ $title := "" }}
+{{ with index $content "title" }}{{ $title = strings.TrimSpace (printf "%v" .) }}{{ end }}
+
+{{ $text := "" }}
+{{ with index $content "text" }}{{ $text = strings.TrimSpace (printf "%v" .) }}{{ end }}
+
+{{ $images := resources.Match "media/photography/*" }}
+
+<section class="photography-section mx-auto w-full max-w-6xl px-6">
+  <div class="mx-auto mb-10 max-w-3xl text-center">
+    {{ with $title }}
+      <h1 class="mb-5 text-4xl font-bold tracking-tight text-gray-900 dark:text-white md:text-5xl">{{ . | markdownify | emojify }}</h1>
+    {{ end }}
+    {{ with $text }}
+      <div class="prose prose-lg mx-auto text-gray-600 dark:prose-invert dark:text-gray-300">{{ . | markdownify | emojify }}</div>
+    {{ end }}
+  </div>
+
+  <div class="photo-grid">
+    {{ range sort $images "Name" "asc" }}
+      {{ if eq .MediaType.MainType "image" }}
+        {{ $filename := path.Base .Name }}
+        {{ $base := replaceRE "\\.[^.]+$" "" $filename }}
+        {{ $caption := $base | replace "_" " " | replace "-" " " | replace "." " " | title }}
+        <a class="photo-grid-item" href="{{ .RelPermalink }}" target="_blank" rel="noopener" aria-label="{{ $caption }}">
+          <img src="{{ .RelPermalink }}" alt="{{ $caption }}" loading="lazy">
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+<style>
+  .photography-section .photo-grid {
+    column-count: 3;
+    column-gap: 1rem;
+  }
+
+  .photography-section .photo-grid-item {
+    break-inside: avoid;
+    display: block;
+    margin: 0 0 1rem;
+  }
+
+  .photography-section .photo-grid-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    transition: transform 180ms ease, filter 180ms ease;
+  }
+
+  .photography-section .photo-grid-item:hover img {
+    filter: brightness(0.96);
+    transform: translateY(-1px);
+  }
+
+  @media (max-width: 900px) {
+    .photography-section .photo-grid {
+      column-count: 2;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .photography-section {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .photography-section .photo-grid {
+      column-count: 1;
+    }
+  }
+</style>
