@@ -44,7 +44,6 @@
     <button class="photo-lightbox-nav photo-lightbox-prev" type="button" aria-label="Previous photo">&lsaquo;</button>
     <img class="photo-lightbox-image" alt="">
     <button class="photo-lightbox-nav photo-lightbox-next" type="button" aria-label="Next photo">&rsaquo;</button>
-    <div class="photo-lightbox-caption" aria-live="polite"></div>
   </div>
 </section>
 
@@ -55,6 +54,7 @@
   }
 
   .photography-section .photo-grid-item {
+    -webkit-tap-highlight-color: transparent;
     appearance: none;
     background: transparent;
     border: 0;
@@ -65,6 +65,7 @@
     margin: 0 0 0.875rem;
     overflow: hidden;
     padding: 0;
+    position: relative;
     text-align: left;
     width: 100%;
   }
@@ -77,10 +78,37 @@
     width: 100%;
   }
 
+  .photography-section .photo-grid-item::after {
+    background:
+      radial-gradient(circle at center, rgba(0, 0, 0, 0) 58%, rgba(0, 0, 0, 0.12) 100%),
+      linear-gradient(180deg, rgba(0, 0, 0, 0) 62%, rgba(0, 0, 0, 0.08) 100%);
+    border-radius: 2px;
+    content: "";
+    inset: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transition: opacity 180ms ease;
+  }
+
   .photography-section .photo-grid-item:hover img,
   .photography-section .photo-grid-item:focus-visible img {
     filter: brightness(0.96);
     transform: scale(1.008);
+  }
+
+  .photography-section .photo-grid-item:hover::after,
+  .photography-section .photo-grid-item:focus-visible::after {
+    opacity: 1;
+  }
+
+  .photography-section .photo-grid-item:active img {
+    filter: brightness(0.94);
+    transform: scale(1.004);
+  }
+
+  .photography-section .photo-grid-item:active::after {
+    opacity: 1;
   }
 
   .photography-section .photo-grid-item:focus-visible {
@@ -96,6 +124,8 @@
     justify-content: center;
     padding: clamp(1rem, 3vw, 2rem);
     position: fixed;
+    touch-action: none;
+    user-select: none;
     z-index: 9999;
   }
 
@@ -109,6 +139,7 @@
     max-height: 86vh;
     max-width: min(94vw, 1400px);
     object-fit: contain;
+    user-select: none;
   }
 
   .photography-section .photo-lightbox-close,
@@ -145,17 +176,6 @@
 
   .photography-section .photo-lightbox-next {
     right: 1.25rem;
-  }
-
-  .photography-section .photo-lightbox-caption {
-    bottom: 1.25rem;
-    color: rgba(255, 255, 255, 0.72);
-    font-size: 0.82rem;
-    left: 1rem;
-    letter-spacing: 0;
-    position: fixed;
-    right: 1rem;
-    text-align: center;
   }
 
   html.photo-lightbox-open,
@@ -224,11 +244,13 @@
       var items = Array.prototype.slice.call(root.querySelectorAll(".photo-grid-item"));
       var lightbox = root.querySelector(".photo-lightbox");
       var image = root.querySelector(".photo-lightbox-image");
-      var caption = root.querySelector(".photo-lightbox-caption");
       var closeButton = root.querySelector(".photo-lightbox-close");
       var prevButton = root.querySelector(".photo-lightbox-prev");
       var nextButton = root.querySelector(".photo-lightbox-next");
       var activeIndex = 0;
+      var touchStartX = 0;
+      var touchStartY = 0;
+      var touchStartTime = 0;
 
       if (!items.length || !lightbox || !image) {
         return;
@@ -243,7 +265,6 @@
 
         image.setAttribute("src", src);
         image.setAttribute("alt", label);
-        caption.textContent = label;
       }
 
       function openLightbox(index) {
@@ -276,6 +297,43 @@
 
       nextButton.addEventListener("click", function () {
         setPhoto(activeIndex + 1);
+      });
+
+      lightbox.addEventListener("touchstart", function (event) {
+        if (!lightbox.classList.contains("is-open") || event.touches.length !== 1) {
+          return;
+        }
+
+        touchStartX = event.touches[0].clientX;
+        touchStartY = event.touches[0].clientY;
+        touchStartTime = Date.now();
+      }, { passive: true });
+
+      lightbox.addEventListener("touchmove", function (event) {
+        if (!lightbox.classList.contains("is-open") || event.touches.length !== 1) {
+          return;
+        }
+
+        var diffX = event.touches[0].clientX - touchStartX;
+        var diffY = event.touches[0].clientY - touchStartY;
+
+        if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 12) {
+          event.preventDefault();
+        }
+      }, { passive: false });
+
+      lightbox.addEventListener("touchend", function (event) {
+        if (!lightbox.classList.contains("is-open") || !event.changedTouches.length) {
+          return;
+        }
+
+        var diffX = event.changedTouches[0].clientX - touchStartX;
+        var diffY = event.changedTouches[0].clientY - touchStartY;
+        var elapsed = Date.now() - touchStartTime;
+
+        if (elapsed < 900 && Math.abs(diffX) > 45 && Math.abs(diffX) > Math.abs(diffY) * 1.35) {
+          setPhoto(activeIndex + (diffX < 0 ? 1 : -1));
+        }
       });
 
       lightbox.addEventListener("click", function (event) {
