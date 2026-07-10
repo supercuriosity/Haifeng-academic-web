@@ -10,6 +10,14 @@ img[class*="profile"],
   overflow: visible;
   image-rendering: auto;
 }
+
+img.avatar {
+  height: 150px !important;
+  max-height: 150px !important;
+  max-width: 150px !important;
+  object-fit: cover;
+  width: 150px !important;
+}
 </style>
 {{ if .IsHome }}
 <script>
@@ -20,6 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   avatar.removeAttribute('srcset');
+  avatar.setAttribute('width', '150');
+  avatar.setAttribute('height', '150');
   avatar.src = '{{ "author/haifeng-sun/avatar.jpg" | relURL }}';
 });
 </script>
