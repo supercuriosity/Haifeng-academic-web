@@ -11,3 +11,16 @@ img[class*="profile"],
   image-rendering: auto;
 }
 </style>
+{{ if .IsHome }}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var avatar = document.querySelector('img.avatar[src*="/avatar_hu"]');
+  if (!avatar) {
+    return;
+  }
+
+  avatar.removeAttribute('srcset');
+  avatar.src = '{{ "author/haifeng-sun/avatar.jpg" | relURL }}';
+});
+</script>
+{{ end }}
