@@ -84,6 +84,14 @@ work:
     summary: |2-
       I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park, focusing on robotics.
 
+  - position: Robotics Intern
+    company_name: Oak Robotics (startup)
+    company_url: ''
+    date_start: 2026-07-01
+    date_end: 2026-10-31
+    summary: |2-
+      I am interning at Oak Robotics, working on robot learning for dexterous-hand manipulation under the guidance of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Branden Romero**](https://improbableai.com/members.html).
+
   - position: Research Intern
     company_name: Cambridge University
     company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
