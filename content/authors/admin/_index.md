@@ -144,12 +144,6 @@ skills:
         percent: 70
         icon: circle-stack
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 100
-
 
 # Life.
 #   Add/remove as many life links below as you like.
@@ -168,8 +162,8 @@ awards:
     awarder: Contact
     icon: chat-bubble-left-right
     summary: |
-      Haifeng-curiosity
-  - title: Xiaohongshu
+      ID: Haifeng-curiosity
+  - title: Rednote
     url: https://www.xiaohongshu.com/user/profile/666835f6000000000303237f?m_source=pwa
     date: '2006-06-11'
     awarder: Social
@@ -180,6 +174,6 @@ awards:
 
 ## About Me
 
-I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [**Prof. Haoshu Fang**](https://fang-haoshu.github.io/), [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), and [Prof. Jianping He](https://iwin-fins.com/). I am also collaborating closely with [Dr. Jiuming Liu](https://liujiuming123.github.io/) and [Prof.Per Ola Kristensson](https://pokristensson.com/) from the University of Cambridge.
+I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [**Prof. Haoshu Fang**](https://fang-haoshu.github.io/). I also collaborate with [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), [Prof. Jianping He](https://iwin-fins.com/), and [Prof. Per Ola Kristensson](https://pokristensson.com/).
 
 My goal is to become a **full-stack** robotics researcher.
