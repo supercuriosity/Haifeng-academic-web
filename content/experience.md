@@ -28,8 +28,4 @@ sections:
     content:
       title: Life
       username: admin
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
 ---
