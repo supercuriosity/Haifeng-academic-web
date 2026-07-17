@@ -9,7 +9,6 @@ main:
     weight: 10
   - name: Papers
     url: /#papers
-    weight: 11
     weight: 13
   - name: Projects
     url: projects/

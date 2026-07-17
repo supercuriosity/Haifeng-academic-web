@@ -44,25 +44,29 @@
   </div>
 
   <div class="photo-grid" aria-label="Photographs">
-    {{ range $ordered_images }}
-      {{ $filename := path.Base .Name }}
+    {{ range $index, $photo := $ordered_images }}
+      {{ $filename := path.Base $photo.Name }}
       {{ $base := replaceRE "\\.[^.]+$" "" $filename }}
       {{ $caption := $base | replace "_" " " | replace "-" " " | replace "." " " | title }}
-      {{ $thumb := .Fit "1200x1600 q90" }}
-      {{ $thumbSmall := .Fit "720x960 q86" }}
-      <button class="photo-grid-item" type="button" data-full-src="{{ .RelPermalink }}" data-caption="{{ $caption }}" aria-label="Open {{ $caption }}">
+      {{ $thumb := $photo.Fit "1200x1600 webp q88" }}
+      {{ $thumbSmall := $photo.Fit "720x960 webp q84" }}
+      {{ $lightboxImage := $photo.Fit "2400x2400 webp q88" }}
+      <button class="photo-grid-item" type="button" data-full-src="{{ $lightboxImage.RelPermalink }}" data-caption="{{ $caption }}" aria-label="Open {{ $caption }}" aria-haspopup="dialog">
         <img
           src="{{ $thumb.RelPermalink }}"
           srcset="{{ $thumbSmall.RelPermalink }} {{ $thumbSmall.Width }}w, {{ $thumb.RelPermalink }} {{ $thumb.Width }}w"
           sizes="(min-width: 1180px) 25vw, (min-width: 761px) 33vw, 50vw"
           alt="{{ $caption }}"
-          loading="lazy"
+          width="{{ $thumb.Width }}"
+          height="{{ $thumb.Height }}"
+          loading="{{ if lt $index 4 }}eager{{ else }}lazy{{ end }}"
+          {{ if eq $index 0 }}fetchpriority="high"{{ end }}
           decoding="async">
       </button>
     {{ end }}
   </div>
 
-  <div class="photo-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+  <div class="photo-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true" hidden>
     <button class="photo-lightbox-close" type="button" aria-label="Close photo viewer">&times;</button>
     <button class="photo-lightbox-nav photo-lightbox-prev" type="button" aria-label="Previous photo">&lsaquo;</button>
     <img class="photo-lightbox-image" alt="">
@@ -137,6 +141,21 @@
   .photography-section .photo-grid-item:focus-visible {
     outline: 2px solid currentColor;
     outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .photography-section .photo-grid-item img,
+    .photography-section .photo-grid-item::after,
+    .photography-section .photo-lightbox-close,
+    .photography-section .photo-lightbox-nav {
+      transition: none;
+    }
+
+    .photography-section .photo-grid-item:hover img,
+    .photography-section .photo-grid-item:focus-visible img,
+    .photography-section .photo-grid-item:active img {
+      transform: none;
+    }
   }
 
   .photography-section .photo-lightbox {
@@ -287,6 +306,7 @@
       var touchStartY = 0;
       var touchStartTime = 0;
       var preloaded = {};
+      var lastFocusedElement = null;
 
       if (!items.length || !lightbox || !image) {
         return;
@@ -325,7 +345,9 @@
       }
 
       function openLightbox(index) {
+        lastFocusedElement = document.activeElement;
         setPhoto(index);
+        lightbox.removeAttribute("hidden");
         lightbox.classList.add("is-open");
         lightbox.setAttribute("aria-hidden", "false");
         document.documentElement.classList.add("photo-lightbox-open");
@@ -335,9 +357,15 @@
       function closeLightbox() {
         lightbox.classList.remove("is-open");
         lightbox.setAttribute("aria-hidden", "true");
+        lightbox.setAttribute("hidden", "");
         document.documentElement.classList.remove("photo-lightbox-open");
         image.removeAttribute("src");
-        items[activeIndex].focus();
+
+        if (lastFocusedElement && document.contains(lastFocusedElement)) {
+          lastFocusedElement.focus();
+        } else {
+          items[activeIndex].focus();
+        }
       }
 
       items.forEach(function (item, index) {
@@ -404,7 +432,19 @@
           return;
         }
 
-        if (event.key === "Escape") {
+        if (event.key === "Tab") {
+          var focusable = [closeButton, prevButton, nextButton];
+          var firstFocusable = focusable[0];
+          var lastFocusable = focusable[focusable.length - 1];
+
+          if (event.shiftKey && document.activeElement === firstFocusable) {
+            event.preventDefault();
+            lastFocusable.focus();
+          } else if (!event.shiftKey && document.activeElement === lastFocusable) {
+            event.preventDefault();
+            firstFocusable.focus();
+          }
+        } else if (event.key === "Escape") {
           closeLightbox();
         } else if (event.key === "ArrowLeft") {
           setPhoto(activeIndex - 1);

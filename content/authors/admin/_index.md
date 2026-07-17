@@ -41,17 +41,18 @@ profiles:
   - icon: brands/x
     url: https://x.com/curiosityhf
     label: X
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+  # Enable these profiles once the personal pages are ready.
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
 
 interests:
-  - robotics
+  - manipulation
   - computer vision
-  - embodied AI
+  - infrastructure
   - control
-  - machine learning
+
 
 education:
   - area: Artificial Intelligence Institute
@@ -93,13 +94,13 @@ work:
   #     I am interning at Oak Robotics, working on robot learning for dexterous-hand manipulation under the guidance of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Branden Romero**](https://improbableai.com/members.html).
 
   - position: Research Intern
-    company_name: Cambridge University
+    company_name: University of Cambridge
     company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
     company_logo: cambridge
     date_start: 2025-10-01
     date_end: 2026-02-01
     summary: |2-
-      I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) and [**Prof.Per Ola Kristensson**](https://pokristensson.com/) from the University of Cambridge on research related to Computer Vision and Machine Learning.
+      I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) and [**Prof. Per Ola Kristensson**](https://pokristensson.com/) at the University of Cambridge on research related to computer vision and machine learning.
 
 
 # Skills
@@ -174,6 +175,6 @@ awards:
 
 ## About Me
 
-I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [**Prof. Haoshu Fang**](https://fang-haoshu.github.io/). I also collaborate with [Prof. Yonglu Li](https://dirtyharrylyl.github.io/), [Prof. Jianping He](https://iwin-fins.com/), and [Prof. Per Ola Kristensson](https://pokristensson.com/).
+I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [**Prof. Haoshu Fang**](https://fang-haoshu.github.io/). I also collaborate with [Prof. Yong-Lu Li](https://dirtyharrylyl.github.io/), [Prof. Jianping He](https://iwin-fins.com/), and [Prof. Per Ola Kristensson](https://pokristensson.com/).
 
 My goal is to become a **full-stack** robotics researcher.

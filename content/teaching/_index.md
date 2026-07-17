@@ -3,9 +3,17 @@ title: Teaching
 summary: My courses
 type: landing
 
+build:
+  list: never
+  render: never
+
 cascade:
   - _target:
       kind: page
+    build:
+      list: never
+      publishResources: false
+      render: never
     params:
       show_breadcrumb: true
 
