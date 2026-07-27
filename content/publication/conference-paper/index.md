@@ -29,8 +29,8 @@ publishDate: '2026-03-05T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In submission to *NeurIPS 2026*
-publication_short: In submission to *NeurIPS 2026*
+publication: ''
+publication_short: ''
 
 abstract: 4D human point cloud videos capture both spatial geometry and temporal dynamics, revealing how people understand and interact with the evolving physical world. However, the inherent irregularity and sparsity of point clouds pose significant challenges to designing effective 4D backbones. Furthermore, existing supervised methods commonly suffer from labor-intensive 4D annotations. To address these challenges, we develop GPT4D, leveraging Generative Pre-training Transformers to autoregressively extract 4D spatio-temporal features for human action recognition. Compared to existing self-supervised approaches that resort to complicated contrastive learning or knowledge distillation, our method revisits GPT-style pre-training by simply serializing 4D tokens and then reconstructing original sequences through a generative extractor-generator pipeline. To capture multi-granularity dynamics, we also design a Next-Scale Motion Token Prediction strategy that progressively generates more fine-grained spatio-temporal structures from coarser ones. Compared to prior self-supervised methods, our GPT4D achieves state-of-the-art performance on both human action recognition (with 3.12% in MSR-Action3D), and gesture recognition tasks (with 3.7% 
  in SHREC'17 and 0.5% in NvGesture). We also demonstrate its promising semi-supervised learning potential. Only using half of the training set on large-scale NTU-RGBD dataset, our method still achieves 88.6% accuracy. In addition, GPT4D generalizes surprisingly well when transferred to different tasks. Code will be released upon publication.
