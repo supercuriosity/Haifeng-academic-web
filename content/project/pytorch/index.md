@@ -1,13 +1,14 @@
 ---
-title: PyTorch
-date: 2023-10-26
-external_link: https://github.com/pytorch/pytorch
+title: RoboPanoptes
+date: 2025-07-21
+external_link: https://github.com/supercuriosity/robopanoptes
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - robot learning
+image:
+  filename: pytorch.png
+  focal_point: Center
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+Implements a diffusion-based visuomotor policy for whole-body robotic (manipulation) control.
 
 <!--more-->

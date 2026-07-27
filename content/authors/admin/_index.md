@@ -1,17 +1,17 @@
----
+﻿---
 # Display name
-title: 吳健雄
+title: Haifeng Sun
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation:  
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Haifeng
+last_name: Sun
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:  
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,107 +20,107 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Undergraduate Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Shanghai Jiao Tong University
+    url: https://en.sjtu.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:curiosity123hf@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://github.com/supercuriosity
+  - icon: brands/instagram
+    url: https://www.instagram.com/curiosity123hf
+    label: Instagram
+  - icon: brands/x
+    url: https://x.com/curiosityhf
+    label: X
+  # Enable these profiles once the personal pages are ready.
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - manipulation
+  - computer vision
+  - infrastructure
+  - control
+
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Artificial Intelligence Institute
+    institution: Shanghai Jiao Tong University
+    date_start: 2025-05-27
+    date_end: ''
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      As part of the RHOS Group, I have been conducting research in the areas of Embodied AI and robot learning, under the mentorship of Prof. Yong-Lu Li and the guidance of Prof. Cewu Lu.   
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      text: 'MVIG-RHOS'
+      url: 'https://mvig-rhos.com/'
+  - area: Robotics and Automation
+    institution: Shanghai Jiao Tong University
+    date_start: 2024-09-19
+    date_end: 2025-09-30
     summary: |
-      GPA: 3.8/4.0
+      I am a bachelor's student in the Department of Automation at Shanghai Jiao Tong University. After joining the IWIN-FINS Lab, I began conducting research in the area of robotic control.
+    button:
+      text: 'IWIN-FINS'
+      url: 'https://iwin-fins.com/'
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Research Intern
+    company_name: University of Maryland, College Park
+    company_url: 'https://fang-haoshu.github.io/'
+    company_logo: Maryland
+    date_start: 2026-02-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      I am conducting research under the supervision of [**Haoshu Fang**](https://fang-haoshu.github.io/) at University of Maryland, College Park, focusing on robotics.
+
+  # - position: Robotics Intern
+  #   company_name: Oak Robotics (startup)
+  #   company_url: ''
+  #   date_start: 2026-07-01
+  #   date_end: 2026-10-31
+  #   summary: |2-
+  #     I am interning at Oak Robotics, working on robot learning for dexterous-hand manipulation under the guidance of [**Haoshu Fang**](https://fang-haoshu.github.io/) and [**Branden Romero**](https://improbableai.com/members.html).
+
+  - position: Research Intern
+    company_name: University of Cambridge
+    company_url: 'https://www.eng.cam.ac.uk/profiles/pok21'
+    company_logo: cambridge
+    date_start: 2025-10-01
+    date_end: 2026-02-01
+    summary: |2-
+      I am collaborating with [**Dr. Jiuming Liu**](https://liujiuming123.github.io/) and [**Prof. Per Ola Kristensson**](https://pokristensson.com/) at the University of Cambridge on research related to computer vision and machine learning.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: C++
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Python & PyTorch
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: code-bracket
+      - name: ROS1/2
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: STM32
         description: ''
         percent: 40
         icon: circle-stack
@@ -128,59 +128,53 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Travel
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Poetry
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: person-simple-walk
+      - name: Table Tennis
         description: ''
         percent: 80
-        icon: camera
+        icon: person-simple-walk
+      - name: Investment
+        description: ''
+        percent: 70
+        icon: circle-stack
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
+# Life.
+#   Add/remove as many life links below as you like.
+#   Only `title`, `awarder`, and `date` are required by this HugoBlox block.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Poetry
+    url: https://github.com/supercuriosity/portfolio
+    date: '2006-06-11'
+    awarder: Life
+    icon: book-open
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Selected poems and writing
+  - title: WeChat
+    date: '2006-06-11'
+    awarder: Contact
+    icon: chat-bubble-left-right
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      ID: Haifeng-curiosity
+  - title: Rednote
+    url: https://www.xiaohongshu.com/user/profile/666835f6000000000303237f?m_source=pwa
+    date: '2006-06-11'
+    awarder: Social
+    icon: link
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Notes and life updates
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an undergraduate researcher at [**Shanghai Jiao Tong University**](https://www.sjtu.edu.cn/), under the supervision of [**Prof. Haoshu Fang**](https://fang-haoshu.github.io/). I also collaborate with [Prof. Yong-Lu Li](https://dirtyharrylyl.github.io/), [Prof. Jianping He](https://iwin-fins.com/), and [Prof. Per Ola Kristensson](https://pokristensson.com/).
+
+My goal is to become a **full-stack** robotics researcher.

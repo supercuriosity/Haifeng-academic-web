@@ -1,0 +1,36 @@
+<style>
+/* Keep the profile portrait square while preserving browser-native smoothing. */
+img.rounded-full,
+.rounded-full img,
+img[class*="avatar"],
+[class*="avatar"] img,
+img[class*="profile"],
+[class*="profile"] img {
+  border-radius: 0 !important;
+  overflow: visible;
+  image-rendering: auto;
+}
+
+img.avatar {
+  height: 150px !important;
+  max-height: 150px !important;
+  max-width: 150px !important;
+  object-fit: cover;
+  width: 150px !important;
+}
+</style>
+{{ if .IsHome }}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var avatar = document.querySelector('img.avatar[src*="/avatar_hu"]');
+  if (!avatar) {
+    return;
+  }
+
+  avatar.removeAttribute('srcset');
+  avatar.setAttribute('width', '150');
+  avatar.setAttribute('height', '150');
+  avatar.src = '{{ "author/haifeng-sun/avatar.jpg" | relURL }}';
+});
+</script>
+{{ end }}
