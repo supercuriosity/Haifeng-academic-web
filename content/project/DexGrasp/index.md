@@ -1,6 +1,6 @@
 ---
 title: DexGrasp
-date: 2026-07-27
+date: 2026-07-24
 external_link: https://github.com/supercuriosity/DexGrasp
 tags:
   - dexterous manipulation

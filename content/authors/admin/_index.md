@@ -49,10 +49,9 @@ profiles:
 
 interests:
   - manipulation
+  - robot infra
   - computer vision
-  - infrastructure
   - control
-
 
 education:
   - area: Artificial Intelligence Institute
