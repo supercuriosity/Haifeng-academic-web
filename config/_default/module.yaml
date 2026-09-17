@@ -23,3 +23,5 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  - source: photo
+    target: assets/media/photography
