@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+title: Haifeng Sun
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://haifengsun.netlify.app/'
 
 ############################
 ## LANGUAGE
@@ -39,7 +39,7 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 80
+  quality: 92
   anchor: smart
 timeout: 600000
 taxonomies:

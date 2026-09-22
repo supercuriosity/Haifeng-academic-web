@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: blue
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Haifeng Sun is an undergraduate robotics researcher at Shanghai Jiao Tong University (SJTU), working on robot learning, computer vision, infra and control.'
+    twitter: 'curiosityhf'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,17 +35,17 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Haifeng Sun"
 
 # Site footer
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+#footer:
+#  copyright:
+#    notice: '© {year} Me. This work is licensed under {license}'
+#    license:
+#      enable: true
+#      allow_derivatives: false
+#      share_alike: true
+#      allow_commercial: false
 
 # Localization
 locale:
