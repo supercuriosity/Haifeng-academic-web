@@ -2,6 +2,7 @@
 title: Fines Robot
 date: 2025-05-21
 external_link: https://github.com/supercuriosity/Finemote-Fines-Robot
+featured: true
 tags:
   - mobile robot
 image:

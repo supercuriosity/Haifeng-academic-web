@@ -71,6 +71,7 @@ sections:
       filters:
         folders:
           - project
+        featured_only: true
     design:
       view: article-grid
       fill_image: false

@@ -2,6 +2,7 @@
 title: GPT4D
 date: 2025-12-12
 external_link: https://github.com/FakeHotdog/GPT4D-for-Human-Action-Recognition
+featured: true
 tags:
   - 4D point cloud understanding
 image:
